@@ -1,101 +1,255 @@
 [
-  {
-    "id": "P001",
-    "name": "iPhone 15 Pro Max",
-    "category": "Smartphone",
-    "price": 1199,
-    "currency": "USD",
-    "releaseDate": "2023-09-22",
-    "specs": {
-      "chip": "A17 Pro",
-      "storage": "256GB",
-      "ram": "8GB",
-      "display": "6.7-inch OLED",
-      "battery": "4323 mAh"
+    {
+        "id": "P001",
+        "name": "iPhone 15 Pro Max",
+        "category": "Smartphone",
+        "price": 1199,
+        "currency": "USD",
+        "releaseDate": "2023-09-22",
+        "specs": {
+            "chip": "A17 Pro",
+            "storage": "256GB",
+            "ram": "8GB",
+            "display": "6.7-inch OLED",
+            "battery": "4323 mAh"
+        },
+        "stock": 35,
+        "rating": 4.8,
+        "colors": [
+            "Titanium Black",
+            "White",
+            "Blue"
+        ],
+        "features": [
+            "Always-On Display",
+            "48MP Main Camera",
+            "USB-C"
+        ],
+        "imageUrl": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN.jpg?v=1694758834&width=823"
     },
-    "stock": 35,
-    "rating": 4.8,
-    "colors": ["Titanium Black", "White", "Blue"],
-    "features": ["Always-On Display", "48MP Main Camera", "USB-C"],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/apple-iphone-15-pro-max-black_800x.jpg"
-  },
-  {
-    "id": "P002",
-    "name": "MacBook Air M2",
-    "category": "Laptop",
-    "price": 1299,
-    "currency": "USD",
-    "releaseDate": "2022-07-15",
-    "specs": {
-      "chip": "Apple M2",
-      "storage": "512GB SSD",
-      "ram": "16GB",
-      "display": "13.6-inch Liquid Retina"
+    {
+        "id": "P002",
+        "name": "MacBook Air M2",
+        "category": "Laptop",
+        "price": 1299,
+        "currency": "USD",
+        "releaseDate": "2022-07-15",
+        "specs": {
+            "chip": "Apple M2",
+            "storage": "512GB SSD",
+            "ram": "16GB",
+            "display": "13.6-inch Liquid Retina"
+        },
+        "stock": 22,
+        "rating": 4.7,
+        "colors": [
+            "Space Gray",
+            "Starlight"
+        ],
+        "features": [
+            "Fanless Design",
+            "18-Hour Battery",
+            "MagSafe Charging"
+        ],
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0306/8677/files/apple-macbook-air-13-inch-macbook-air-13-inch-m2-starlight-2022-good-41944521015612.jpg"
     },
-    "stock": 22,
-    "rating": 4.7,
-    "colors": ["Space Gray", "Starlight"],
-    "features": ["Fanless Design", "18-Hour Battery", "MagSafe Charging"],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/1143/0110/products/Apple_MacBook_Air_M2_13inch_Space_Gray_1_1200x1200.jpg"
-  },
-  {
-    "id": "P003",
-    "name": "Apple Watch Series 9",
-    "category": "Wearable",
-    "price": 399,
-    "currency": "USD",
-    "releaseDate": "2023-09-12",
-    "specs": {
-      "chip": "S9 SiP",
-      "batteryLife": "18 hours",
-      "display": "Always-On Retina"
+    {
+        "id": "P003",
+        "name": "Apple Watch Series 9",
+        "category": "Wearable",
+        "price": 399,
+        "currency": "USD",
+        "releaseDate": "2023-09-12",
+        "specs": {
+            "chip": "S9 SiP",
+            "batteryLife": "18 hours",
+            "display": "Always-On Retina"
+        },
+        "stock": 50,
+        "rating": 4.6,
+        "colors": [
+            "Midnight",
+            "Product Red"
+        ],
+        "features": [
+            "Double Tap Gesture",
+            "Blood Oxygen",
+            "Crash Detection"
+        ],
+        "imageUrl": "https://khmerapsaraphone.com/wp-content/uploads/2023/09/apple-watch-series-9-aluminum-midnight-midnight-sport-band-1.webp"
     },
-    "stock": 50,
-    "rating": 4.6,
-    "colors": ["Midnight", "Product Red"],
-    "features": ["Double Tap Gesture", "Blood Oxygen", "Crash Detection"],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0588/9498/4828/products/apple-watch-series-9.jpg"
-  },
-  {
-    "id": "P004",
-    "name": "iPad Pro 12.9-inch (M2)",
-    "category": "Tablet",
-    "price": 1099,
-    "currency": "USD",
-    "releaseDate": "2022-10-26",
-    "specs": {
-      "chip": "Apple M2",
-      "storage": "1TB",
-      "ram": "16GB",
-      "display": "12.9-inch mini-LED"
+    {
+        "id": "P004",
+        "name": "iPad Pro 12.9-inch (M2)",
+        "category": "Tablet",
+        "price": 1099,
+        "currency": "USD",
+        "releaseDate": "2022-10-26",
+        "specs": {
+            "chip": "Apple M2",
+            "storage": "1TB",
+            "ram": "16GB",
+            "display": "12.9-inch mini-LED"
+        },
+        "stock": 12,
+        "rating": 4.9,
+        "colors": [
+            "Silver",
+            "Space Gray"
+        ],
+        "features": [
+            "ProMotion",
+            "Face ID",
+            "Thunderbolt Port"
+        ],
+        "imageUrl": "https://khmersamnang.com/wp-content/uploads/2022/10/ipad-pro-m2-sliver-600x600.png"
     },
-    "stock": 12,
-    "rating": 4.9,
-    "colors": ["Silver", "Space Gray"],
-    "features": ["ProMotion", "Face ID", "Thunderbolt Port"],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0533/2089/files/iPad_Pro_M2.jpg"
-  },
-  {
-    "id": "P005",
-    "name": "AirPods Pro (2nd Gen)",
-    "category": "Audio",
-    "price": 249,
-    "currency": "USD",
-    "releaseDate": "2022-09-23",
-    "specs": {
-      "chip": "H2",
-      "batteryLife": "6 hours",
-      "case": "MagSafe Charging Case"
+    {
+        "id": "P005",
+        "name": "AirPods Pro (2nd Gen)",
+        "category": "Audio",
+        "price": 249,
+        "currency": "USD",
+        "releaseDate": "2022-09-23",
+        "specs": {
+            "chip": "H2",
+            "batteryLife": "6 hours",
+            "case": "MagSafe Charging Case"
+        },
+        "stock": 80,
+        "rating": 4.5,
+        "colors": [
+            "White"
+        ],
+        "features": [
+            "Active Noise Cancellation",
+            "Adaptive Transparency",
+            "Spatial Audio"
+        ],
+        "imageUrl": "https://m.media-amazon.com/images/I/611pEx7220L._UF894,1000_QL80_.jpg"
     },
-    "stock": 80,
-    "rating": 4.5,
-    "colors": ["White"],
-    "features": [
-      "Active Noise Cancellation",
-      "Adaptive Transparency",
-      "Spatial Audio"
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0409/2304/6811/products/apple-airpods-pro-2nd-gen.jpg"
-  }
-
+    {
+        "id": "P011",
+        "name": "Apple Vision Pro",
+        "category": "AR/VR Headset",
+        "price": 3499,
+        "currency": "USD",
+        "releaseDate": "2024-01-15",
+        "specs": {
+            "chip": "M2 + R1",
+            "storage": "256GB",
+            "ram": "16GB",
+            "display": "Dual 4K micro‑OLED"
+        },
+        "stock": 5,
+        "rating": 4.4,
+        "colors": [
+            "Silver"
+        ],
+        "features": [
+            "Spatial Audio",
+            "Eye Tracking",
+            "Hand Gestures"
+        ],
+        "imageUrl": "https://m.media-amazon.com/images/I/61DHhx94qSL.jpg"
+    },
+    {
+        "id": "P012",
+        "name": "AirPods Max (USB‑C)",
+        "category": "Headphones",
+        "price": 549,
+        "currency": "USD",
+        "releaseDate": "2023-03-10",
+        "specs": {
+            "chip": "H1",
+            "batteryLife": "20 hours ANC",
+            "drivers": "40mm dynamic"
+        },
+        "stock": 25,
+        "rating": 4.7,
+        "colors": [
+            "Silver",
+            "Midnight"
+        ],
+        "features": [
+            "ANC",
+            "Spatial Audio",
+            "USB-C Charging"
+        ],
+        "imageUrl": "https://m.media-amazon.com/images/I/715izx6g41L.jpg"
+    },
+    {
+        "id": "P013",
+        "name": "HomePod mini",
+        "category": "Smart Speaker",
+        "price": 99,
+        "currency": "USD",
+        "releaseDate": "2023-11-05",
+        "specs": {
+            "chip": "S7",
+            "size": "3.3-inch",
+            "audio": "360° Full-range driver"
+        },
+        "stock": 60,
+        "rating": 4.5,
+        "colors": [
+            "Space Gray",
+            "White"
+        ],
+        "features": [
+            "Temperature Sensor",
+            "Intercom",
+            "Stereo Pair"
+        ],
+        "imageUrl": "https://media.wired.com/photos/5fcfd66fceb074386788077e/master/pass/Gear-HomePod_mini-hero-white-BLUE.jpg"
+    },
+    {
+        "id": "P014",
+        "name": "Studio Display",
+        "category": "Monitor",
+        "price": 1599,
+        "currency": "USD",
+        "releaseDate": "2022-03-08",
+        "specs": {
+            "size": "27-inch 5K",
+            "camera": "12MP Ultra Wide",
+            "speakers": "Six speaker sound"
+        },
+        "stock": 9,
+        "rating": 4.6,
+        "colors": [
+            "Silver",
+            "Space Gray"
+        ],
+        "features": [
+            "Tilt & Height Adjust",
+            "Center Stage",
+            "True Tone"
+        ],
+        "imageUrl": "https://m.media-amazon.com/images/I/71I1KXzxHIL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "P015",
+        "name": "Apple TV 4K (3rd Gen)",
+        "category": "Media Player",
+        "price": 129,
+        "currency": "USD",
+        "releaseDate": "2022-10-18",
+        "specs": {
+            "chip": "A15 Bionic",
+            "storage": "64GB",
+            "hdmi": "HDMI 2.1"
+        },
+        "stock": 45,
+        "rating": 4.4,
+        "colors": [
+            "Black"
+        ],
+        "features": [
+            "Siri Remote",
+            "HDR10+",
+            "Wi‑Fi 6"
+        ],
+        "imageUrl": "https://powermaccenter.com/cdn/shop/files/Apple_TV_4K_4d4d6d96-d62d-474e-b425-983de0dee8f4.jpg?v=1716250734&width=1445"
+    }
 ]
