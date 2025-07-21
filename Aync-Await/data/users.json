@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a3c1a1d2-b2de-4f98-9045-fda5f1a2e8d1",
+        "name": "johndoe",
+        "code": "1001"
+    },
+    {
+        "id": "c0f31f50-8a3d-41a2-b6b1-9ff65d5a6e2a",
+        "name": "janedoe",
+        "code": "1002"
+    },
+    {
+        "id": "2b66fc38-1112-4f4b-9a27-6b9274c07e34",
+        "name": "alexsmith",
+        "code": "1003"
+    },
+    {
+        "id": "e7dbb8cd-3e45-4d15-8f44-66d58d982f4a",
+        "name": "emilywhite",
+        "code": "1004"
+    },
+    {
+        "id": "5e3a5894-2fd1-4727-88df-43d74fc8c19d",
+        "name": "miketurner",
+        "code": "1005"
+    }
+]
