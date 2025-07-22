@@ -23,3 +23,28 @@ let employee2 = {
 };
 console.log(employee1.details());
 console.log(employee2.details());
+let unionType;
+unionType = "Hello world";
+unionType = 123;
+function kgToLbs(weight) {
+    if (typeof weight === "number") {
+        return weight * 2.2;
+    }
+    else {
+        return parseFloat(weight) * 2.2;
+    }
+}
+console.log(kgToLbs(74));
+console.log(kgToLbs("74kg"));
+let manger1 = {
+    name: "hana",
+    age: 20,
+    department: "IT",
+    id: 1,
+    salary: 1200,
+    staffs: [
+        { id: 1, salary: 2000 },
+        { id: 2, salary: 1500 }
+    ]
+};
+console.log(manger1);
