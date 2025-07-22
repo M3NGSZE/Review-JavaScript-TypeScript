@@ -21,5 +21,5 @@ let employee2 = {
         console.log(`${this.name} is retiring on ${date}`);
     },
 };
-console.log(employee1.details);
-console.log(employee2.details);
+console.log(employee1.details());
+console.log(employee2.details());

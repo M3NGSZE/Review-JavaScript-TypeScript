@@ -30,5 +30,5 @@ let employee2: Employee = {
     },
 };
 
-console.log(employee1.details)
-console.log(employee2.details)
+console.log(employee1.details())
+console.log(employee2.details())
