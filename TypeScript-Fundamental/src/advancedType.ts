@@ -86,7 +86,7 @@ let manger1: ManagerWithPerson = {
 
 console.log(manger1)
 
-// == | Literal Tyoe | ==
+// == | Literal Type | ==
 
 // let quantity: any
 // quantity = 10
@@ -99,3 +99,17 @@ function printQunatity(value: qty){
 }
 
 printQunatity(30) // if value does not match compile tine error
+
+// == | Nullable Type | ==
+
+function greet(name: string){
+    if(name){
+        console.log(`Hello ${name}`)
+    }else {
+        console.log("Hello guest")
+    }
+}
+
+greet(null)
+greet(undefined)
+greet("Chanelle")

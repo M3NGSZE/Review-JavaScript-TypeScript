@@ -52,3 +52,14 @@ function printQunatity(value) {
     console.log(value);
 }
 printQunatity(30);
+function greet(name) {
+    if (name) {
+        console.log(`Hello ${name}`);
+    }
+    else {
+        console.log("Hello guest");
+    }
+}
+greet(null);
+greet(undefined);
+greet("Chanelle");
