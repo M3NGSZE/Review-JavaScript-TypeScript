@@ -63,3 +63,10 @@ function greet(name) {
 greet(null);
 greet(undefined);
 greet("Chanelle");
+function getCustomerDetails(id) {
+    return id === 0 ? null : { name: "Mengse", birthDate: new Date() };
+}
+console.log(getCustomerDetails(0));
+console.log(getCustomerDetails(1));
+let customer = getCustomerDetails(0);
+console.log((customer === null || customer === void 0 ? void 0 : customer.name) || "Guest");

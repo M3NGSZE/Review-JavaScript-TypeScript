@@ -113,3 +113,20 @@ function greet(name: string){
 greet(null)
 greet(undefined)
 greet("Chanelle")
+
+// === | Optional Chain | ===
+
+type Customer = {
+    name: string;
+    birthDate: Date;
+};
+
+function getCustomerDetails(id: number): Customer | undefined | null{
+    return id === 0 ? null : {name: "Mengse", birthDate: new Date()}
+}
+
+console.log(getCustomerDetails(0))
+console.log(getCustomerDetails(1))
+
+let customer = getCustomerDetails(0);
+console.log(customer?.name || "Guest");
