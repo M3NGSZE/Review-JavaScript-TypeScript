@@ -21,8 +21,6 @@ let employee2 = {
         console.log(`${this.name} is retiring on ${date}`);
     },
 };
-console.log(employee1.details());
-console.log(employee2.details());
 let unionType;
 unionType = "Hello world";
 unionType = 123;
@@ -34,8 +32,6 @@ function kgToLbs(weight) {
         return parseFloat(weight) * 2.2;
     }
 }
-console.log(kgToLbs(74));
-console.log(kgToLbs("74kg"));
 let manger1 = {
     name: "hana",
     age: 20,
@@ -60,13 +56,10 @@ function greet(name) {
         console.log("Hello guest");
     }
 }
-greet(null);
-greet(undefined);
-greet("Chanelle");
 function getCustomerDetails(id) {
     return id === 0 ? null : { name: "Mengse", birthDate: new Date() };
 }
-console.log(getCustomerDetails(0));
-console.log(getCustomerDetails(1));
-let customer = getCustomerDetails(0);
+let customer = getCustomerDetails(1);
 console.log((customer === null || customer === void 0 ? void 0 : customer.name) || "Guest");
+let customerList = [];
+console.log((customerList === null || customerList === void 0 ? void 0 : customerList[0]) || "No customer found");

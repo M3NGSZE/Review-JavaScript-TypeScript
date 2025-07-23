@@ -30,8 +30,8 @@ let employee2: Employee = {
     },
 };
 
-console.log(employee1.details())
-console.log(employee2.details())
+// console.log(employee1.details())
+// console.log(employee2.details())
 
 // === | Union Type | ===
 
@@ -48,8 +48,8 @@ function kgToLbs(weight: number | string): number{
     }
 }
 
-console.log(kgToLbs(74));
-console.log(kgToLbs("74kg"));
+// console.log(kgToLbs(74));
+// console.log(kgToLbs("74kg"));
 
 
 // === | Intersection Type | ===
@@ -110,23 +110,29 @@ function greet(name: string){
     }
 }
 
-greet(null)
-greet(undefined)
-greet("Chanelle")
+// greet(null)
+// greet(undefined)
+// greet("Chanelle")
 
 // === | Optional Chain | ===
 
 type Customer = {
     name: string;
-    birthDate: Date;
+    birthDate?: Date;
 };
 
 function getCustomerDetails(id: number): Customer | undefined | null{
     return id === 0 ? null : {name: "Mengse", birthDate: new Date()}
 }
 
-console.log(getCustomerDetails(0))
-console.log(getCustomerDetails(1))
+// console.log(getCustomerDetails(0))
+// console.log(getCustomerDetails(1))
 
-let customer = getCustomerDetails(0);
+let customer = getCustomerDetails(1);
 console.log(customer?.name || "Guest");
+
+// console.log(customer?.birthDate?.getFullYear() || "N/A")
+
+let customerList: Customer[] = [];
+
+console.log(customerList?.[0] || "No customer found")
