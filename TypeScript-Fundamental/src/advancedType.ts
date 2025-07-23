@@ -85,3 +85,17 @@ let manger1: ManagerWithPerson = {
 }
 
 console.log(manger1)
+
+// == | Literal Tyoe | ==
+
+// let quantity: any
+// quantity = 10
+// quantity = "10"
+
+type qty = 10 | 20 | 30
+
+function printQunatity(value: qty){
+    console.log(value)
+}
+
+printQunatity(30) // if value does not match compile tine error

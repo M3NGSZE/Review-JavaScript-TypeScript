@@ -48,3 +48,7 @@ let manger1 = {
     ]
 };
 console.log(manger1);
+function printQunatity(value) {
+    console.log(value);
+}
+printQunatity(30);
